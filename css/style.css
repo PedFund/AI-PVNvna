@@ -1451,4 +1451,16 @@ section:nth-child(even) {
   color: #333;
   font-weight: 400;
 }
+/* --- Унификация блока "О курсе" под карточки в 2 колонки --- */
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-md);
+  align-items: stretch;
+  justify-items: center;
+}
 
+.about .benefit-card {
+  max-width: 100%;
+  text-align: left;
+}
