@@ -1,389 +1,197 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Авторский курс по нейросервисам и искусственному интеллекту от Вероники Пунчик. Научитесь использовать AI-инструменты в своей профессии.">
-    <title>Курс по нейросервисам и ИИ | Вероника Пунчик</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Авторский курс по нейросервисам и искусственному интеллекту от Вероники Пунчик. Научитесь использовать AI-инструменты в своей профессии." />
+  <title>Курс по нейросервисам и ИИ | Вероника Пунчик</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">
-                <i class="fas fa-brain"></i>
-                <span>AI Курс</span>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="#home" class="nav-link">Главная</a></li>
-                <li><a href="#about" class="nav-link">О курсе</a></li>
-                <li><a href="#program" class="nav-link">Программа</a></li>
-                <li><a href="#benefits" class="nav-link">Преимущества</a></li>
-                <li><a href="#author" class="nav-link">Автор</a></li>
-                <li><a href="#reviews" class="nav-link">Отзывы</a></li>
-                <li><a href="#contact" class="nav-link">Контакты</a></li>
-            </ul>
-            <button class="nav-toggle" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
-    </nav>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="nav-brand">
+        <i class="fas fa-brain"></i>
+        <span>AI Курс</span>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link">Главная</a></li>
+        <li><a href="#about" class="nav-link">О курсе</a></li>
+        <li><a href="#program" class="nav-link">Программа</a></li>
+        <li><a href="#author" class="nav-link">Автор</a></li>
+        <li><a href="#contact" class="nav-link">Контакты</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-background">
-            <div class="neural-network"></div>
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">Внедрите ИИ в свои профессиональные задачи — от первого промпта до готового решения</h1>
+          <p class="hero-subtitle">
+            Авторский курс Вероники Николаевны Пунчик — эксперта по ИИ в образовании, кандидата педагогических наук, члена Комитета по искусственному интеллекту в науке и образовании НФИИ (РФ)
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary"><i class="fas fa-rocket"></i> Записаться на курс</a>
+            <a href="#about" class="btn btn-secondary"><i class="fas fa-info-circle"></i> Узнать больше</a>
+          </div>
         </div>
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1 class="hero-title">Научитесь использовать нейросервисы и искусственный интеллект в своей профессии</h1>
-                    <p class="hero-subtitle">Авторский курс Вероники Пунчик — эксперта по ИИ в образовании, кандидата педагогических наук, члена Комитета по искусственному интеллекту в науке и образовании НФИИ (РФ)</p>
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary">
-                            <i class="fas fa-rocket"></i>
-                            Записаться на курс
-                        </a>
-                        <a href="#about" class="btn btn-secondary">
-                            <i class="fas fa-info-circle"></i>
-                            Узнать больше
-                        </a>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <div class="ai-illustration">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                </div>
-            </div>
+        <div class="hero-image">
+          <img src="PVN-vi.jpg" alt="Вероника Пунчик" style="max-width: 400px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" />
         </div>
-        <div class="scroll-indicator">
-            <a href="#about">
-                <i class="fas fa-chevron-down"></i>
-            </a>
-        </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">О курсе</h2>
-                <div class="title-underline"></div>
-            </div>
-            <div class="about-content">
-                <div class="about-description">
-                    <p class="about-text">
-                        Курс "Нейросервисы и системы искусственного интеллекта: от основ к экспертным решениям" — это интенсивная программа, которая поможет специалистам освоить современные AI-инструменты для оптимизации задач, автоматизации процессов и внедрения нейросетей в рабочую практику.
-                    </p>
-                </div>
-                <div class="about-details">
-                    <div class="detail-card">
-                        <div class="detail-icon">
-                            <i class="fas fa-calendar-alt"></i>
-                        </div>
-                        <h3>Форматы обучения</h3>
-                        <ul>
-                            <li><strong>Вводный иммерсивный модуль</strong> — 12 часов (очно) - обзор и практикум</li>
-                            <li><strong>Практический модуль по созданию продукта</strong> — онлайн, 2–4 часа в неделю</li>
-                        </ul>
-                    </div>
-                    <div class="detail-card">
-                        <div class="detail-icon">
-                            <i class="fas fa-users"></i>
-                        </div>
-                        <h3>Для кого этот курс</h3>
-                        <ul>
-                            <li>Руководители</li>
-                            <li>Педагоги</li>
-                            <li>Аналитики</li>
-                            <li>Специалисты по маркетингу</li>
-                            <li>Инженеры</li>
-                            <li>Все, кто хочет использовать AI практически</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">О курсе</h2>
+        <div class="title-underline"></div>
+      </div>
+      <div class="about-content">
+        <p>
+          Курс "Нейросервисы и системы искусственного интеллекта: от основ к экспертным решениям" — интенсивная программа для специалистов, которая адаптируется под ваши реальные задачи.
+        </p>
+        <p>
+          Обучение в группах из одной организации или профессиональной области позволяет настроить программу под:
+        </p>
+        <ul>
+          <li>Специфику вашей организации или структурного подразделения</li>
+          <li>Особенности вашего профессионального направления</li>
+          <li>Типовые задачи, с которыми вы работаете ежедневно</li>
+        </ul>
+        <p>
+          Вы освоите современные AI-инструменты не на абстрактных примерах, а на ваших рабочих кейсах — от автоматизации документооборота до анализа отраслевых данных.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Program Section -->
+  <section id="program" class="program">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Программа обучения</h2>
+        <div class="title-underline"></div>
+      </div>
+      <ul>
+        <li><strong>Вводный интенсив-модуль — 12 часов</strong> (очно — предпочтительно, можно дистанционно). Обзор ИИ-трендов, основы работы с нейросетями для генерации текста, изображений, видео, презентаций. Политика индивидуальной и корпоративной работы с VPN. Кейс-практикум промптинга.</li>
+        <li><strong>Практический модуль по созданию продукта (дистанционно)</strong> — 2–4 часа в неделю (ориентировочно). Групповая и индивидуальная работа над собственными проектами и решениями.</li>
+        <li><strong>Консалтинг и руководство проектами</strong> — по запросу.</li>
+      </ul>
+
+      <h3>Для кого этот курс</h3>
+      <p>Курс ориентирован на специалистов, стремящихся к практическому внедрению искусственного интеллекта в свою деятельность.</p>
+      <ul>
+        <li>Руководители</li>
+        <li>Педагоги</li>
+        <li>Аналитики</li>
+        <li>Маркетологи</li>
+        <li>Инженеры</li>
+        <li>Все, кто хочет использовать AI-инструменты для повышения эффективности</li>
+      </ul>
+
+      <h3>Результаты обучения</h3>
+      <ul>
+        <li>Освоите работу с ведущими AI-моделями (ChatGPT, Gemini, Claude, Qwen, DeepSeek и др.)</li>
+        <li>Настроите собственное рабочее окружение для эффективной работы с нейросетями</li>
+        <li>Научитесь разрабатывать AI-помощников и чат-ботов</li>
+        <li>Создадите готовый кейс автоматизации, адаптированный под вашу деятельность</li>
+        <li>Получите консультации преподавателя и доступ к методическим материалам через онлайн-дашборд</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Author Section -->
+  <section id="author" class="author">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Об авторе курса</h2>
+        <div class="title-underline"></div>
+      </div>
+      <div class="author-content">
+        <div class="author-photo">
+          <img src="PVN-vi.jpg" alt="Вероника Пунчик" style="max-width:250px; border-radius: 50%; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
         </div>
-    </section>
+        <div class="author-bio">
+          <h3 class="author-name">Вероника Пунчик</h3>
+          <p class="author-title">Кандидат педагогических наук, доцент, промпт-инженер.</p>
+          <p>25 лет педагогической деятельности: доцент кафедры педагогики БГПУ, профессор кафедры молодежной политики РИВШ. Промпт-инженер, резидент Университета Зерокодинга (Сколково).</p>
 
-    <!-- Program Section -->
-    <section id="program" class="program">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Программа курса</h2>
-                <div class="title-underline"></div>
-            </div>
-            <div class="program-modules">
-                <div class="module-card">
-                    <div class="module-number">01</div>
-                    <div class="module-icon">
-                        <i class="fas fa-book-open"></i>
-                    </div>
-                    <h3 class="module-title">Основы нейросервисов</h3>
-                    <p class="module-format"><i class="fas fa-map-marker-alt"></i> Очно</p>
-                    <ul class="module-topics">
-                        <li><i class="fas fa-check"></i> Промптинг</li>
-                        <li><i class="fas fa-check"></i> Работа с LLM VPN/без VPN</li>
-                        <li><i class="fas fa-check"></i> Обзор AI-инструментов</li>
-                    </ul>
-                </div>
-                <div class="module-card">
-                    <div class="module-number">02</div>
-                    <div class="module-icon">
-                        <i class="fas fa-cogs"></i>
-                    </div>
-                    <h3 class="module-title">Автоматизация процессов</h3>
-                    <p class="module-format"><i class="fas fa-laptop"></i> Онлайн</p>
-                    <ul class="module-topics">
-                        <li><i class="fas fa-check"></i> Чат-боты</li>
-                        <li><i class="fas fa-check"></i> Автопостинг</li>
-                        <li><i class="fas fa-check"></i> Анализ данных</li>
-                    </ul>
-                </div>
-                <div class="module-card">
-                    <div class="module-number">03</div>
-                    <div class="module-icon">
-                        <i class="fas fa-lightbulb"></i>
-                    </div>
-                    <h3 class="module-title">Интеграция в бизнес/образование</h3>
-                    <p class="module-format"><i class="fas fa-laptop"></i> Онлайн</p>
-                    <ul class="module-topics">
-                        <li><i class="fas fa-check"></i> Разработка решений</li>
-                        <li><i class="fas fa-check"></i> Под собственные задачи</li>
-                        <li><i class="fas fa-check"></i> Практические кейсы</li>
-                    </ul>
-                </div>
-                <div class="module-card">
-                    <div class="module-number">04</div>
-                    <div class="module-icon">
-                        <i class="fas fa-user-tie"></i>
-                    </div>
-                    <h3 class="module-title">Индивидуальные консультации</h3>
-                    <p class="module-format"><i class="fas fa-clock"></i> По запросу</p>
-                    <ul class="module-topics">
-                        <li><i class="fas fa-check"></i> Персональная поддержка</li>
-                        <li><i class="fas fa-check"></i> Доработка проектов</li>
-                        <li><i class="fas fa-check"></i> Решение задач</li>
-                    </ul>
-                </div>
-            </div>
+          <h4>Партнёры и организации:</h4>
+          <ul>
+            <li><a href="https://smaipl.com" target="_blank">SMAIPL</a></li>
+            <li><a href="https://nfii.ru" target="_blank">НФИИ</a></li>
+            <li><a href="https://8digital.by" target="_blank">8-digital</a></li>
+          </ul>
+
+          <h4>Внедрено:</h4>
+          <ul>
+            <li>БЕЛАЗ</li>
+            <li>Синодальный отдел по делам молодежи БПЦ</li>
+            <li>NEWM-Limited (Ireland)</li>
+            <li>ЭЛТИ-КУДИЦ (Москва)</li>
+            <li>Проект «Спортивный менеджер со знаком качества» (Брест)</li>
+            <li>МГИРО (ПК для педагогических работников)</li>
+          </ul>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Benefits Section -->
-    <section id="benefits" class="benefits">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Что вы получите</h2>
-                <div class="title-underline"></div>
-            </div>
-            <div class="benefits-grid">
-                <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-robot"></i>
-                    </div>
-                    <h3>Практические навыки</h3>
-                    <p>Освоите ChatGPT, Claude, Gemini, DeepSeek, Qwen и другие нейросервисы для реальных задач</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-comments"></i>
-                    </div>
-                    <h3>AI-ассистенты</h3>
-                    <p>Научитесь разрабатывать и тестировать собственных AI-ассистентов</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <h3>Готовые кейсы</h3>
-                    <p>Создадите кейс автоматизации под свою профессиональную деятельность: промпт, бот, пайплайн</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <h3>Поддержка</h3>
-                    <p>Консультации преподавателя через онлайн-дашборд</p>
-                </div>
-            </div>
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Оставить заявку</h2>
+        <div class="title-underline"></div>
+        <p class="section-subtitle">Сделайте первый шаг к интеграции искусственного интеллекта в свою профессиональную сферу</p>
+      </div>
+
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc03qIAkToJOP9a-VaQyIOOomRhW82XXr9xti3ixmoFsb2FBA/viewform?embedded=true"
+              width="100%" height="855" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
+
+      <div class="contact-info">
+        <div class="info-card">
+          <div class="info-icon"><i class="fab fa-telegram"></i></div>
+          <h4>Telegram-канал</h4>
+          <a href="https://t.me/IInovatorsD" target="_blank">@ДоцентыИИноваторы</a>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Author Section -->
-    <section id="author" class="author">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Об авторе курса</h2>
-                <div class="title-underline"></div>
-            </div>
-            <div class="author-content">
-                <div class="author-photo">
-                    <img src="img/veronika.jpg" alt="Вероника Пунчик" class="author-img">
-                </div>
-            </div>
-                <div class="author-bio">
-                    <h3 class="author-name">Вероника Пунчик</h3>
-                    <p class="author-title">Кандидат педагогических наук, доцент, промпт-инженер</p>
-                    <div class="author-description">
-                        <p>
-                            <strong>Профессор кафедры молодежной политики РИВШ</strong>, промпт-инженер, резидент Университета Зерокодинга (Сколково).
-                        </p>
-                        <p>
-                            Разработчик корпоративных AI-курсов для <strong>БЕЛАЗ</strong>, <strong>ЭЛТИ-КУДИЦ</strong> (Москва), проекта "Спортивный менеджер со знаком качества" и других.
-                        </p>
-                    </div>
-                    <div class="author-partners">
-                        <h4>Партнёры и организации:</h4>
-                        <div class="partner-badges">
-                            <span class="badge">SMAIPL</span>
-                            <span class="badge">НФИИ</span>
-                            <span class="badge">РИВШ</span>
-                            <span class="badge">Сколково</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand"><i class="fas fa-brain"></i><span>Курс по нейросервисам и ИИ</span></div>
+        <div class="footer-links">
+          <a href="#home">Главная</a>
+          <a href="#about">О курсе</a>
+          <a href="#program">Программа</a>
+          <a href="#author">Автор</a>
+          <a href="#contact">Контакты</a>
         </div>
-    </section>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Вероника Пунчик. Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
 
-    <!-- Reviews Section -->
-    <section id="reviews" class="reviews">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Отзывы и рекомендации</h2>
-                <div class="title-underline"></div>
-            </div>
-            <div class="reviews-grid">
-                <div class="review-card">
-                    <div class="review-header">
-                        <div class="reviewer-avatar">
-                            <i class="fas fa-user-tie"></i>
-                        </div>
-                        <div class="reviewer-info">
-                            <h4 class="reviewer-name">Дмитрий Анашкин</h4>
-                            <p class="reviewer-position">CEO SMAIPL</p>
-                        </div>
-                    </div>
-                    <div class="review-stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p class="review-text">
-                        "Вероника показала себя как промпт-инженер высокого уровня, способный решать задачи в сжатые сроки и находить нестандартные решения."
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Оставить заявку</h2>
-                <div class="title-underline"></div>
-                <p class="section-subtitle">Сделайте первый шаг к интеграции искусственного интеллекта в свою профессиональную сферу</p>
-            </div>
-            <div class="contact-content">
-                <form class="contact-form" id="contactForm">
-                    <div class="form-group">
-                        <label for="name">Имя *</label>
-                        <input type="text" id="name" name="name" required placeholder="Ваше имя">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">E-mail *</label>
-                        <input type="email" id="email" name="email" required placeholder="your@email.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="organization">Организация</label>
-                        <input type="text" id="organization" name="organization" placeholder="Название организации">
-                    </div>
-                    <div class="form-group full-width">
-                        <label for="message">Комментарий</label>
-                        <textarea id="message" name="message" rows="5" placeholder="Расскажите о своих целях и задачах..."></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-submit">
-                        <i class="fas fa-paper-plane"></i>
-                        Отправить заявку
-                    </button>
-                    <div class="form-message" id="formMessage"></div>
-                </form>
-                <div class="contact-info">
-                    <div class="info-card">
-                        <div class="info-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <h4>Email</h4>
-                        <a href="mailto:pvnvna@yandex.by">pvnvna@yandex.by</a>
-                    </div>
-                    <div class="info-card">
-                        <div class="info-icon">
-                            <i class="fab fa-github"></i>
-                        </div>
-                        <h4>GitHub</h4>
-                        <a href="https://github.com/PedFund" target="_blank">github.com/PedFund</a>
-                    </div>
-                    <div class="info-card">
-                        <div class="info-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <h4>Локация</h4>
-                        <p>Минск, Беларусь</p>
-                    </div>
-                    <div class="info-card">
-                        <div class="info-icon">
-                            <i class="fab fa-telegram"></i>
-                        </div>
-                        <h4>Telegram-канал</h4>
-                        <p>ДоцентыИИноваторы</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <i class="fas fa-brain"></i>
-                    <span>Курс по нейросервисам и ИИ</span>
-                </div>
-                <div class="footer-links">
-                    <a href="#home">Главная</a>
-                    <a href="#about">О курсе</a>
-                    <a href="#program">Программа</a>
-                    <a href="#author">Автор</a>
-                    <a href="#contact">Контакты</a>
-                </div>
-                <div class="footer-social">
-                    <a href="mailto:pvnvna@yandex.by" aria-label="Email"><i class="fas fa-envelope"></i></a>
-                    <a href="https://github.com/PedFund" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="#" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Вероника Пунчик. Все права защищены.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Back to Top Button -->
-    <button class="back-to-top" id="backToTop" aria-label="Back to top">
-        <i class="fas fa-arrow-up"></i>
-    </button>
-
-    <script src="js/script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
+
+
