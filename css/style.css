@@ -1250,3 +1250,46 @@ section:nth-child(even) {
         transform: scale(1) translateY(-10px);
     }
 }
+.about-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.about-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    padding: 25px 20px;
+    text-align: center;
+    max-width: 300px;
+    flex: 1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-card i {
+    font-size: 36px;
+    color: #5b4bff;
+    margin-bottom: 10px;
+}
+
+.about-card h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.about-card p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.about-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.1);
+}
