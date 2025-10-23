@@ -1824,3 +1824,10 @@ section:nth-child(even) {
         min-height: 35px;
     }
 }
+.ai-highlight {
+    display: inline-block;
+    background: linear-gradient(90deg, #6366f1, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
