@@ -434,7 +434,7 @@ section:nth-child(even) {
 .section-subtitle {
     font-size: 1.125rem;
     color: var(--text-light);
-    max-width: 600px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
