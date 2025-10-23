@@ -375,3 +375,31 @@ window.addEventListener('load', () => {
         console.log(`⚡ Время загрузки страницы: ${loadTime}ms`);
     }
 });
+// Certificate Modal Functions
+function openCertificateModal(src, caption) {
+    const modal = document.getElementById('certificateModal');
+    const modalImg = document.getElementById('modalImage');
+    const modalCaption = document.getElementById('modalCaption');
+    
+    modal.style.display = 'block';
+    modalImg.src = src;
+    modalCaption.textContent = caption;
+    
+    // Prevent body scroll when modal is open
+    document.body.style.overflow = 'hidden';
+}
+
+function closeCertificateModal() {
+    const modal = document.getElementById('certificateModal');
+    modal.style.display = 'none';
+    
+    // Restore body scroll
+    document.body.style.overflow = 'auto';
+}
+
+// Close modal with Escape key
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        closeCertificateModal();
+    }
+});
