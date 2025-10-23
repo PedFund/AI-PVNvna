@@ -1827,7 +1827,10 @@ section:nth-child(even) {
 .ai-highlight {
     display: inline-block;
     background: linear-gradient(90deg, #6366f1, #8b5cf6);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    color: transparent !important;
     font-weight: 600;
 }
+
